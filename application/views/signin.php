@@ -23,21 +23,16 @@ if ($this->session->flashdata('fail')): ?>
                     </button>
                 </div>
 <?php endif; ?>
-                <div class="form-group col-12 row">
-                    <label class="d-none d-md-block col-md-4" for="username">Nama User</label>
-                    <input class="form-control col-sm-12 col-md-8" required
-                        type="text" name="username" id="username" placeholder="Username" maxlength="50"/>
+                <div class="form-group col-lg-12">
+                    <label for="username">Username</label>
+                    <input type="text" class="form-control" id="username" name="username" placeholder="Username">
                 </div>
-                <div class="form-group col-12 row">
-                    <label class="d-none d-md-block col-md-4" for="password">Kata Sandi</label>
-                    <input class="form-control col-sm-12 col-md-8" required
-                        type="password" name="password" id="password" placeholder="Password" minlength="8"/>
+                <div class="form-group col-lg-12">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control" id="password" name="password" placeholder="Password">
                 </div>
-                <div class="form-group col-12 row">
-                    <div class="col-4"></div>
-                    <div class="col-8 pl-0">
-                        <input class="btn btn-primary w100px" type="submit" value="Sign In" />	
-                    </div>
+                <div class="form-group col-lg-12">
+                    <button type="submit" class="btn btn-primary">Sign In</button>
                 </div>
             </form>
         </div>
