@@ -10,3 +10,5 @@ Instalasi
     - application/config/config.php
     - dan file lainnya jika diperlukan
 6. Jalankan browser dan akses http://localhost/mahasiswa/
+7. Login dengan username dan password yang telah diberikan
+    - username: admin password: stmikpontianak
